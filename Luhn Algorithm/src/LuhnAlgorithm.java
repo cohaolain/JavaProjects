@@ -1,3 +1,5 @@
+// Designed by Ciarán Ó hAoláin
+
 import java.util.Scanner;
 public class LuhnAlgorithm{	
         public static void main(String[] args) {

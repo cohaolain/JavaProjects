@@ -1,3 +1,5 @@
+// Designed by Ciarán Ó hAoláin
+
 import java.util.Scanner;
 import java.math.BigInteger;
 
