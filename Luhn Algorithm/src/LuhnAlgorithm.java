@@ -1,16 +1,29 @@
 // Designed by Ciarán Ó hAoláin
 
+/* This program will take numbers to be verified using
+ * the Luhn Algorithm (e.g. credit/debit card numbers)
+ * and use the Luhn Algorithm to either:
+ * 
+ * A) Check if the entire number passes the validation
+ * or
+ * B) Generate the final digit where the user doesn't
+ * provide the final digit themselves.
+ * 
+ * The route the program takes is defined by a simple
+ * yes/no query at the beginning of the program.
+ */
+
 import java.util.Scanner;
 public class LuhnAlgorithm{	
         public static void main(String[] args) {
-        boolean disableOptions = true; // If true the program will assume the user wants to enter their entire number
+        boolean disableOptions = false; // If true the program will assume the user wants to enter their entire number
         boolean repeat = false; // If true the program will keep asking for more numbers to work with after a validation / check number generation 
         boolean findCheck = true;
         do {            
             Scanner userInput = new Scanner(System.in);
         	if (!disableOptions) {            
 	        	System.out.println("Would you like to provide your entire number (or else you can leave out the last digit)? (Answer y/n)");
-	            String response = userInput.nextLine();
+	            String response = userInput.nextLine().toLowerCase();
 		        if (response.charAt(0) == 'n') {            
 		            System.out.println("Number (excluding the final digit) to be verified using the Luhn Algorithm:");            
 		        }
