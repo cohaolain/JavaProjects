@@ -1,4 +1,4 @@
-// Designed by Ciarán Ó hAoláin
+// github.com/cohaolain
 
 /* This program will take numbers to be verified using
  * the Luhn Algorithm (e.g. credit/debit card numbers)

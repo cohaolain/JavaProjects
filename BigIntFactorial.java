@@ -1,7 +1,7 @@
-// Designed by Ciarán Ó hAoláin
+// github.com/cohaolain
 
-import java.util.Scanner;
 import java.math.BigInteger;
+import java.util.Scanner;
 
 public class BigIntFactorial{
 	
