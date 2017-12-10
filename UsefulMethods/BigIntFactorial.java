@@ -1,5 +1,7 @@
 // github.com/cohaolain
 
+package UsefulMethods;
+
 import java.math.BigInteger;
 import java.util.Scanner;
 
@@ -13,7 +15,7 @@ public class BigIntFactorial{
 		input.close();
 	}
 	
-	public static String returnFactorial(long n) {
+	private static String returnFactorial(long n) {
 		BigInteger nBig = new BigInteger(Long.toString(n));
 		for (long i=Math.abs(n); i>1; i--) {
 			BigInteger iBig = new BigInteger(Long.toString(i-1));

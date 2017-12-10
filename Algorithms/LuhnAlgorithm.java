@@ -13,6 +13,8 @@
  * yes/no query at the beginning of the program.
  */
 
+package Algorithms;
+
 import java.util.Scanner;
 public class LuhnAlgorithm{	
         public static void main(String[] args) {

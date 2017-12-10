@@ -1,5 +1,9 @@
 // github.com/cohaolain
 
+// Monte Carlo simulation to find the probability of T many tails in a row after tossing a coin N times
+
+package Algorithms;
+
 import java.util.Scanner;
 
 public class CoinTossMonteCarlo {
